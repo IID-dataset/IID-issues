@@ -1,9 +1,9 @@
 # Introduction
 
 This dataset consists of two parts:
-The first part includes 162 IID issues in popular and open-source Android apps.
+1) The first part includes 162 IID issues in popular and open-source Android apps.
+2) The second part includes 28 IID issues in popular and open-source Android apps.
 
-The second part includes 28 IID issues in popular and open-source Android apps.
 
 The information provided by each IID issue:
 1) The code repository of the app subject
