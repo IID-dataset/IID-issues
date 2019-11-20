@@ -2,6 +2,7 @@ Triggering condition: handling a large image
 Consequence: app crash
 
 Below is the IID issue's code slice:	
+
 //------------------------------code slice-----------------------------------------------
 public void onActivityResult(int requestCode, int resultCode, Intent data)
 File f = new File(mMediaCapturePath)
@@ -10,27 +11,27 @@ if (!addMedia(capturedImageUri, null))
 private boolean addMedia(Uri imageUri, SpannableStringBuilder ssb)
 if (ssb != null && !MediaUtils.isInMediaStore(imageUri))
 imageUri = MediaUtils.downloadExternalMedia(getActivity(), imageUri)
-Bitmap thumbnailBitmap;
-String mediaTitle;
+Bitmap thumbnailBitmap
+String mediaTitle
 if (imageUri.toString().contains("video") && !MediaUtils.isInMediaStore(imageUri))
-ImageHelper ih = new ImageHelper();
+ImageHelper ih = new ImageHelper()
 thumbnailBitmap = ih.getThumbnailForWPImageSpan(getActivity(), imageUri.getEncodedPath())
 public getThumbnailForWPImageSpan(Context ctx, String filePath)
 Display display = ((Activity)ctx).getWindowManager().getDefaultDisplay()
 int width = display.getWidth()
 int height = display.getHeight()
 if (width > height)
-width = height;
-Uri curUri;
+width = height
+Uri curUri
 if (!filePath.contains("content://"))
 curUri = Uri.parse("content://media" + filePath)
 if (filePath.contains("video"))
-int[] dimensions = getImageSize(curUri, ctx);
-float conversionFactor = 0.40f;
+int[] dimensions = getImageSize(curUri, ctx)
+float conversionFactor = 0.40f
 if (dimensions[0] > dimensions[1])
-conversionFactor = 0.60f;
-int resizedWidth = (int) (width * conversionFactor);
-int rotation = getImageOrientation(ctx, filePath);
+conversionFactor = 0.60f
+int resizedWidth = (int) (width * conversionFactor)
+int rotation = getImageOrientation(ctx, filePath)
 byte[] bytes = createThumbnailFromUri(ctx, curUri, resizedWidth, null, rotation)
 public byte[] createThumbnailFromUri(..., Uri imageUri, int maxWidth,... ,int rotation)
 String filePath = null

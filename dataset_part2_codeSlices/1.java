@@ -15,7 +15,7 @@ synchronized (this)
 if (icon == null)
 icon = KissApplication.getApplication(context).getIconsHandler().getDrawableIconForPackage(className, this.appPojo.userHandle)   //buggy code
 public Drawable getDrawableIconForPackage(ComponentName componentName, UserHandle userHandle)
-systemIcon = this.getDefaultAppDrawable(componentName, userHandle);
+systemIcon = this.getDefaultAppDrawable(componentName, userHandle)
 if (systemIcon instanceof BitmapDrawable)
 Drawable generated = generateBitmap(systemIcon)
 private Drawable generateBitmap(Drawable defaultBitmap)
