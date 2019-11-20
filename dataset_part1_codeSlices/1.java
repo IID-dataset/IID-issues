@@ -2,7 +2,6 @@ Triggering condition: handling a large image
 Consequence: app crash
 
 Below is the IID issue's code slice:	
-
 //------------------------------code slice-----------------------------------------------
 public void onActivityResult(int requestCode, int resultCode, Intent data)
 File f = new File(mMediaCapturePath)
@@ -90,7 +89,7 @@ The begin of a functional module: image recycling
 bmpResized.recycle()
 bmpRotated.recycle()
 /**
-The end of a functional module: image recycling
+The end of the functional module: image recycling
 **/
 
 	
