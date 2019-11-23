@@ -132,7 +132,7 @@
 131,Newpipe,VideoItemDetailFragment.java,updateInfo,66e9a98,Loop-based redundant image decoding,Pull-166,https://github.com/TeamNewPipe/NewPipe/pull/166
 132,AmazeFileManager,ImageViewer.java,onCreate,bb40891,Image decoding without resizing,pull-577,https://github.com/TeamAmaze/AmazeFileManager/pull/577
 133,Conversations,FileBackend.java,getThumbnail,c76b073,,Issue-2283,https://github.com/siacs/Conversations/issues/2283
-134,Diode,ThreadsListActivity.java,fillCommentsListItemView,bc60967,,Pull-50,https://github.com/zagaberoo/diode/pull/50
+134,Diode,CommentsListActivity.java,getView,bc60967,,Pull-50,https://github.com/zagaberoo/diode/pull/50
 135,Diode,CommentsListActivity.java,getView,bc60967,,Pull-50,https://github.com/zagaberoo/diode/pull/50
 136,Diode,CommentsListActivity.java,getView,bc60967,,Pull-50,https://github.com/zagaberoo/diode/pull/50
 137,Diode,CommentsListActivity.java,getView,bc60967,,Pull-50,https://github.com/zagaberoo/diode/pull/50
