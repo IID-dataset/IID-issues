@@ -17,4 +17,4 @@ The information provided by each IID issue:
 # Usage of the dataset
 The IID issues in the first part of this dataset are the issues studied in our SANER'19 paper "Characterizing and Detecting Inefficient Image Displaying Issues in Android Apps".
 
-All of the IID issues in this dataset are the issues studied in our journal extension paper submited to EMSE.
+All of the IID issues in this dataset are the issues studied in our journal extension paper submited to JCST.
