@@ -11,7 +11,15 @@ if (imageUrl != null) {
 Uri uri = Uri.parse(imageUrl);
 String filepath = uri.getLastPathSegment();
 if (MediaUtils.isValidImage(filepath)) {
-imageView.setImageUrl(imageUrl, mImageLoader);//The functional module of image decoding+displaying                 buggy code
+/**
+The begin of a functional module: image loading + image rendering
+**/
+imageView.setImageUrl(imageUrl, mImageLoader);
+/**
+The end of a functional module: image loading + image rendering
+**/
+
+Error description:line 14, inappropriate code implementation
 
 
 
