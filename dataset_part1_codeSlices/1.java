@@ -3,6 +3,9 @@ Consequence: app crash
 
 Below is the IID issue's code slice:	
 //------------------------------code slice-----------------------------------------------
+/**
+The begin of a functional module: image loading
+**/
 public void onActivityResult(int requestCode, int resultCode, Intent data)
 File f = new File(mMediaCapturePath)
 Uri capturedImageUri = Uri.fromFile(f)
@@ -41,10 +44,6 @@ if (cur != null)
 if (cur.moveToFirst())
 int dataColumn = cur.getColumnIndex(Images.Media.DATA)
 filePath = cur.getString(dataColumn)
-/**
-The begin of a functional module: image resizing
-This functional module is the buggy code
-**/
 BitmapFactory.Options optBounds = new BitmapFactory.Options()
 optBounds.inJustDecodeBounds = true
 BitmapFactory.decodeFile(filePath, optBounds)
@@ -54,17 +53,10 @@ double d = Math.pow(2, (int) Math.round(Math.log(maxWidth / (double) optBounds.o
 scale = (int) d
 BitmapFactory.Options optActual = new BitmapFactory.Options()
 optActual.inSampleSize = scale
-/**
-The end of the functional module: image resizing
-**/
-
-/**
-The begin of a functional module: image decoding
-**/
 Bitmap bmpResized
 bmpResized = BitmapFactory.decodeFile(filePath, optActual)
 /**
-The end of the functional module: image decoding
+The end of the functional module: image loading
 **/
 
 /**
@@ -79,19 +71,14 @@ Matrix matrix = new Matrix()
 matrix.setRotate(rotation)
 final Bitmap bmpRotated = Bitmap.createBitmap(bmpResized, 0, 0, bmpResized.getWidth(), bmpResized.getHeight(), matrix, true)
 bmpRotated.compress(fmt, 100, stream)
+bmpResized.recycle()
+bmpRotated.recycle()
 /**
 The end of the functional module: image disk caching
 **/
 
-/**
-The begin of a functional module: image recycling
-**/
-bmpResized.recycle()
-bmpRotated.recycle()
-/**
-The end of the functional module: image recycling
-**/
 
+Error description: line 52, inappropriate code implementation
 	
 
 
