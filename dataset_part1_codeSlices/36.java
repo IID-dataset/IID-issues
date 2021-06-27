@@ -13,6 +13,8 @@ if (url != null && url.equals(iv.getTag(R.id.IMG_URL))) {
 }else if (url != null && !url.isEmpty()) {
 imageLoader.displayImage(url, iv, thumbDisplayImageOptions, thumbLoadingListener);//The functional module of image resizing+decoding+displaying
 
+Error description:line 7, lack of necessary functional modules
+
 
 
 

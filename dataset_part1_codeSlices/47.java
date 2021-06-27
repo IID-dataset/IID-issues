@@ -17,3 +17,5 @@ file = getCacheFileForArtworkUri(uri);
 if (file.exists() && file.length() > 0 && isWriteOperation) {
 Context context = getContext();
 //buggy position           lack of image resource releasing
+
+Error description:line 19, lack of necessary functional modules

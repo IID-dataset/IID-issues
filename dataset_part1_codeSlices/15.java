@@ -1,5 +1,8 @@
+Triggering condition: no triggering condition description
+Consequence: bad user experiences and lack of further details for inspecion
 
---------------------EditPostActivity.java
+Below is the IID issue's code slice:	
+//------------------------------code slice-----------------------------------------------
 public void initializeEditorFragment() {
 if (mEditorFragment instanceof AztecEditorFragment) {
 AztecEditorFragment aztecEditorFragment = (AztecEditorFragment)mEditorFragment;
@@ -9,6 +12,8 @@ Drawable loadingVideoPlaceholder = getResources().getDrawable(org.wordpress.andr
 loadingVideoPlaceholder.setBounds(0, 0,AztecEditorFragment.DEFAULT_MEDIA_PLACEHOLDER_DIMENSION_DP,AztecEditorFragment.DEFAULT_MEDIA_PLACEHOLDER_DIMENSION_DP);//The functional module of image displaying     buggy code
 aztecEditorFragment.setAztecVideoLoader(new AztecVideoLoader(getBaseContext(), loadingVideoPlaceholder));
 aztecEditorFragment.setLoadingVideoPlaceholder(loadingVideoPlaceholder);
+
+Error description:line 12, inappropriate code implementation
 
 
 

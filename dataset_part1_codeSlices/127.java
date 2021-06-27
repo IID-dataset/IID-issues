@@ -12,3 +12,5 @@ convertView = inflater.inflate(R.layout.video_item, parent, false);
 holder = new ViewHolder();
  holder.itemThumbnailView = (ImageView) convertView.findViewById(R.id.itemThumbnailView);
 imageLoader.displayImage(info.thumbnail_url, holder.itemThumbnailView);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 14, using unsuitable third-party libraries   

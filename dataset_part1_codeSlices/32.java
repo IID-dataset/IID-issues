@@ -50,3 +50,5 @@ byte data[] = new byte[1024];
 int count;
 while ((count = input.read(data)) != -1) {
 output.write(data, 0, count);//The functional module of image disk caching
+
+Error description:line 23-44, inappropriate code implementation

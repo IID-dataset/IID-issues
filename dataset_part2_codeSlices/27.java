@@ -11,3 +11,5 @@ Picasso.with(context).load(url).noPlaceholder().networkPolicy(NetworkPolicy.NO_S
 /**
 The end of the functional module: image decoding+displaying
 **/
+
+Error description:line 10, misconfiguration of third-party libraries

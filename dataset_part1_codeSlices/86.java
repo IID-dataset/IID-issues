@@ -11,3 +11,5 @@ updateAppearance();
 private void updateAppearance() {
 Glide.with(getActivity()).load(item.getImageUri()).diskCacheStrategy(DiskCacheStrategy.SOURCE).fitCenter().dontAnimate().into(imgvCover);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
 
+Error description:line 12, misconfiguration of third-party libraries
+

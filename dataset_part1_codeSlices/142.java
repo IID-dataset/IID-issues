@@ -51,5 +51,7 @@ if (uri != null && result != null)
 mBitmapCache.put(uri.toString(), result);
 aHolder.mMediaThumbnail.setImageBitmap(result);//The functional module of image displaying
 
+Error description:line 35-43, inappropriate code implementation
+
 
 

@@ -29,3 +29,5 @@ mBitmap = BitmapFactory.decodeStream(in, null, options);//The functional module 
 in.close();
 mContent.setImageBitmap(bitmap);//The functional module of image displaying
 
+Error description:line 28, inappropriate code implementation
+

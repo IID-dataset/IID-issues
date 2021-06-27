@@ -11,3 +11,5 @@ fullImageUri = ChanFileStorage.getHiddenLocalImageUri(urlTextView.getContext(), 
 fullImagePath = (new File(URI.create(fullImageUri.toString()))).getAbsolutePath();
 DisplayImageOptions options = (new DisplayImageOptions.Builder()).cacheOnDisc().showStubImage(R.drawable.stub_image_background).resetViewBeforeLoading().fullSizeImageLocation(fullImagePath).imageSize(new ImageSize(300, 300)).build();//buggy code    lack of image memory caching
 ChanImageLoader.getInstance(urlTextView.getContext()).displayImage(url, webImage, options, imageListener);//The functional module of image resizing+disk-caching+decoding+displaying
+
+Error description:line 12, lack of necessary functional modules

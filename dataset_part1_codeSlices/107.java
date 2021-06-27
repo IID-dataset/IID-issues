@@ -28,3 +28,4 @@ The end of the functional module: image resizing
 Bitmap bitmap = BitmapFactory.decodeFile(imagePath, options);//The functional module of image decoding
 imgDisplay.setImageBitmap(bitmap);//The functional module of image displaying
 
+Error description:line 15-24, inappropriate code implementation  

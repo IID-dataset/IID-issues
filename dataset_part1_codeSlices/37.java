@@ -17,6 +17,8 @@ viewHolder.list_item_image_header.setVisibility(View.VISIBLE);
 String url = cursor.getString(cursor.getColumnIndex(ChanPost.POST_IMAGE_URL));
 imageLoader.displayImage(url, viewHolder.list_item_image_header, options,visible ? thumbLoadingListener : invisibleThumbLoadingListener);//The functional module of image resizing+decoding+displaying
 
+Error description:line 13, lack of necessary functional modules
+
  
 
 

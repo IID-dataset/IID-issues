@@ -9,6 +9,8 @@ Bitmap bitmap = BitmapFactory.decodeFile(url);//The functional module of image d
 BitmapDrawable bitmapDrawable = new BitmapDrawable(context.getResources(), bitmap);
 callbacks.onImageLoaded(bitmapDrawable);//The functional module of image displaying
 
+Error description:line 8, lack of necessary functional modules
+
 
 
 

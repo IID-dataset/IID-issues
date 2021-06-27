@@ -15,3 +15,5 @@ Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);//The func
 if (bitmap != null) {
 BitmapDrawable bitmapDrawable = new BitmapDrawable(context.getResources(), bitmap);
 callbacks.onImageLoaded(bitmapDrawable);//The functional module of image displaying
+
+Error description:line 12, inappropriate code implementation

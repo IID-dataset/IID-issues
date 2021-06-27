@@ -29,6 +29,8 @@ stream = new FileOutputStream(compressedFile);
 scaledBitmap.compress(Bitmap.CompressFormat.JPEG, quality, stream);//The functional module of image disk caching
 return compressedFile;
 
+Error description:line 11, inappropriate code implementation
+
 
 
 

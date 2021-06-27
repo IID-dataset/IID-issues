@@ -19,4 +19,6 @@ final File newImage = new File(destImagePath);
 runOnUiThread(new Runnable() {
 public void run() {
 ((ODKView) currentView).setBinaryData(newImage);
+
+Error description:line 18, lack of necessary functional modules
                          

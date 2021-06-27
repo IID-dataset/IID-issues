@@ -106,7 +106,7 @@ return mBitmapCache;
 if (imageView != null&& imageView.getTag() instanceof String&& ((String)imageView.getTag()).equalsIgnoreCase(path)) {
 imageView.setImageBitmap(bitmap);//The functional module for image displaying
 
-
+Error description: line 53, inappropriate code implementation
 
 
 

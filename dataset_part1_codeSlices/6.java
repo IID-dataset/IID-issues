@@ -122,7 +122,7 @@ Map<String, Object> m = new HashMap<String, Object>();
 fullSizeUrl = uploadPicture(m, mf, blog);
 
 
-
+Error description: line 44, inappropriate code implementation.
 
 
 

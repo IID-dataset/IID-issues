@@ -11,7 +11,7 @@ if (SettingsManager.chatsShowBackground()) {
 viewPager.setBackgroundDrawable(getResources().getDrawable(R.drawable.chat_background_repeat));//The functional module of image displaying
 viewPager.getBackground().setAlpha(30);//buggy code
 
-
+Error description:line 12, inappropriate code implementation
 
 
 

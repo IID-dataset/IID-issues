@@ -29,6 +29,8 @@ if (imageView != null) {
 imageView.setImageBitmap(result);//The functional module of image displaying
 //buggy position        lack of image object releasing
 
+Error description:line 29, lack of necessary functional modules
+
 
 
 

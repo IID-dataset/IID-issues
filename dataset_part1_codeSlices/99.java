@@ -13,3 +13,5 @@ imageSize = (imageSize * 2) / 3;
 if (cacheSize > ATTACHED_IMAGES_CACHE_SIZE_MAX) {
 cacheSize = ATTACHED_IMAGES_CACHE_SIZE_MAX;
 attachedImagesCache = new MyDrawableCache(context, "Attached images", imageSize,cacheSize);
+
+Error description:line 6, inappropriate code implementation

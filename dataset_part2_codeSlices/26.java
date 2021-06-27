@@ -13,4 +13,4 @@ Picasso.with(context).load(url).noFade().networkPolicy(NetworkPolicy.OFFLINE).in
 The end of the functional module: image decoding+displaying
 **/       
 	
-	
+Error description:line 11, misconfiguration of third-party libraries	

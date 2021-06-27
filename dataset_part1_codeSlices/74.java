@@ -14,3 +14,5 @@ feed = result;
 imgvCover.post(new Runnable() {
 public void run() {
 Glide.with(FeedInfoActivity.this).load(feed.getImageUri()).placeholder(R.color.light_gray).diskCacheStrategy(DiskCacheStrategy.SOURCE).fitCenter().dontAnimate().into(imgvCover);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
+
+Error description:line 16, misconfiguration of third-party libraries

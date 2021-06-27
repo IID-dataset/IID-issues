@@ -16,4 +16,4 @@ FeedHolder holder;
 Feed feed = itemAccess.getItem(feedPos);
 Glide.with(context).load(feed.getImageUri()).placeholder(R.color.light_gray).diskCacheStrategy(DiskCacheStrategy.SOURCE).fitCenter().dontAnimate().into(holder.image);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
 
-
+Error description:line 17, misconfiguration of third-party libraries

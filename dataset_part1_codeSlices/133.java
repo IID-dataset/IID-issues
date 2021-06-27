@@ -24,5 +24,7 @@ if (bm != null) {
 cancelPotentialWork(message, imageView);
 imageView.setImageBitmap(bm);//The functional module of image displaying
 
+Error description:line 19, inappropriate code implementation
+
 
 

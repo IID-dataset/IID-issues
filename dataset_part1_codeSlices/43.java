@@ -53,6 +53,8 @@ return thumbnail;
 return thumbnail;
 fileIcon.setImageBitmap(thumbnail);//The functional module of image displaying
 
+Error description:line 34, inappropriate code implementation
+
 
 
 

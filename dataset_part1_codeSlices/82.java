@@ -12,5 +12,7 @@ if (component.getClass() == Feed.class) {
 final Feed feed = (Feed) component;
 Glide.with(context).load(feed.getImageUri()).diskCacheStrategy(DiskCacheStrategy.SOURCE).fitCenter().dontAnimate().into(holder.cover);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
 
+Error description:line 13, misconfiguration of third-party libraries
+
 
          

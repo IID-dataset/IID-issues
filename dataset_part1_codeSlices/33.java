@@ -13,3 +13,5 @@ setImagePreview();
 protected void setImagePreview() {
 DisplayImageOptions options = (new DisplayImageOptions.Builder()).cacheOnDisc().showStubImage(R.drawable.stub_image_background).resetViewBeforeLoading().fullSizeImageLocation(imageUri.toString()).imageSize(new ImageSize(300, 300)).build();//buggy code
 ChanImageLoader.getInstance(this).displayImage(imageUri.toString(), imagePreview, options, previewListener);//The functional module of image resizing+decoding+displaying
+
+Error description:line 14, inappropriate code implementation

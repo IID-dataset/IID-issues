@@ -33,3 +33,5 @@ image = Bitmap.createScaledBitmap(image, width * GL11.GL_MAX_TEXTURE_SIZE / maxE
 The end of the functional module: image resizing
 **/
 view.setImageBitmap(image);//the functional module: image displaying
+
+Error description:line 24, inappropriate code implementation  

@@ -13,3 +13,4 @@ if (big || fullscreen) {
 } else {
 Picasso.with(mContext).load(url).into(holder.thumbImage);//The functional module of image decoding+displaying      buggy code
             
+Error description:line 14, using unsuitable third-party libraries   

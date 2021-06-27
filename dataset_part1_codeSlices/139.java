@@ -40,3 +40,5 @@ resultCanvas.drawBitmap(bm, null, dstRect, paint);//The functional module of ima
 currentX = dstRect.right;
 bm.recycle();//The functional module of image object releasing
 
+Error description:line 30, inappropriate code implementation
+

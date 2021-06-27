@@ -12,3 +12,5 @@ final String cacheKey = url + maxWidthForEditor;
 WordPress.getBitmapCache().putBitmap(cacheKey, bitmap);//buggy code    
 BitmapDrawable bitmapDrawable = new BitmapDrawable(context.getResources(), bitmap);
 callbacks.onImageLoaded(bitmapDrawable);////The functional module of image displaying
+
+Error description:line 12, inappropriate code implementation

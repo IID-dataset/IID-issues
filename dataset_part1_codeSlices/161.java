@@ -15,3 +15,4 @@ final File file = new File(fullPhotoPathFromArray);
 holder.image.setImageBitmap(HugeImageLoader.loadImage(file, 32,32));
 holder.image.setImageURI(Uri.parse(holder.url));//The functional module of image displaying   buggy code
 
+Error description:line 16, inappropriate code implementation

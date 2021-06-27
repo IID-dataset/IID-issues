@@ -85,4 +85,4 @@ imageView.setImageDrawable(drawable)
 The end of a functional module: image displaying
 **/
 
-
+Error description:line 16, inappropriate code implementation  

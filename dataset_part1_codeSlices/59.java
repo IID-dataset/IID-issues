@@ -50,6 +50,8 @@ thumbnail = bitmapOrientation(context, media, thumbnail);
 thumbnail.compress(Bitmap.CompressFormat.PNG, 90, fout);//The functional module of image disk caching
 thumbnail.recycle();//The functional module of image releasing
 
+Error description:line 30-41, inappropriate code implementation
+
 
 
 

@@ -11,4 +11,6 @@ if (type == ContentType.ImageType.IMAGE) {
 url = ContentType.getFixedUrl(submission.getUrl());
 if (big || fullscreen) {
 Picasso.with(mContext).load(url).into(holder.leadImage);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 13, using unsuitable third-party libraries   
             

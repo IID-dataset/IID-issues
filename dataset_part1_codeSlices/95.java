@@ -42,4 +42,6 @@ drawable = new BitmapDrawable(MyContextHolder.get().context().getResources(), bi
 return drawable;
 imageView.setImageDrawable(item.getAttachedImage());//The functional module of image displaying
 
+Error description:line 39, inappropriate code implementation
+
   

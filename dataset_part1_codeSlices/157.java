@@ -15,7 +15,7 @@ private void setImage(int position, long imageID, Uri uri, PhotoView photoView) 
 if (!mHasLowMemory) {
 photoView.setImageURI(uri); //The functional module of image decoding + displaying              buggy code
 
-
+Error description:line 16, inappropriate code implementation
 
 
 

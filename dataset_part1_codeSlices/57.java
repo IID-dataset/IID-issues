@@ -52,4 +52,6 @@ format = Bitmap.CompressFormat.JPEG;
 reorientedBitmap.compress(format, 75, stream);//The functional module of image disk caching
 reorientedBitmap.recycle();
 
+Error description:line 47, inappropriate code implementation
+
 

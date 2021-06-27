@@ -19,3 +19,5 @@ if(bitmap != null){
 imageCache.put(f.getPath(), bitmap);//The functional module of image memory caching
 imageView.setImageBitmap(bitmap);//The functional module of image displaying
 //error position     lack of image releasing
+
+Error description:line 20, inappropriate code implementation  

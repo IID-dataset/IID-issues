@@ -19,3 +19,5 @@ if (bitmapToShow != null) {
 if (mediaFile.isVideo()) {
 content.insertVideo(new BitmapDrawable(getResources(), bitmapToShow), attrs);//The functional module of image displaying
 
+Error description:line 16, inappropriate code implementation
+

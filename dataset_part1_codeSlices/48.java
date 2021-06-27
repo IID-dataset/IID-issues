@@ -29,3 +29,5 @@ The end of the functional module: image resizing
 options.inSampleSize = Math.min(ImageUtil.calculateSampleSize(width, widgetWidth),ImageUtil.calculateSampleSize(height, widgetHeight));
 image = BitmapFactory.decodeStream(contentResolver.openInputStream(imageUri), null, options);//The functional module of image decoding
 remoteViews.setImageViewBitmap(R.id.widget_background, image);//The functional module of image displaying
+
+Error description:line 16-25, inappropriate code implementation

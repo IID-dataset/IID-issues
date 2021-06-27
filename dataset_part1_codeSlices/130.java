@@ -19,3 +19,5 @@ View nextVideoView = videoItemViewCreator.getViewFromVideoInfoItem(null, nextVid
 nextVideoFrame.addView(nextVideoView);
 thumb = (ImageView) nextVideoFrame.findViewById(R.id.itemThumbnailView);
 imageLoader.displayImage(currentVideoInfo.nextVideo.thumbnail_url, thumb);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 21, using unsuitable third-party libraries   

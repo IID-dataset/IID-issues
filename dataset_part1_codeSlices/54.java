@@ -33,3 +33,5 @@ The end of the  functional module: image resizing
 Bitmap b = BitmapFactory.decodeFile(f.getAbsolutePath(), options);//The functional module of image decoding                  buggy code
 return b;
 mCanvas = new Canvas(mBitmap);//The functional module of image displaying
+
+Error description:line 33, inappropriate code implementation

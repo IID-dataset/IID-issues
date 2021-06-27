@@ -11,4 +11,4 @@ if (type.toString().toLowerCase().contains("image")) {
 url = s.getDataNode().get("preview").get("images").get(0).get("source").get("url").asText();
 Picasso.with(getActivity()).load(url).into(image);//The functional module of image decoding+displaying      buggy code
 
-
+Error description:line 12, using unsuitable third-party libraries   

@@ -66,6 +66,8 @@ return Bitmap.createScaledBitmap(bitmap, targetWidth, targetHeight, true);//The 
 if (thumb != null) {
 thumb.compress(Bitmap.CompressFormat.PNG, 75, outputStream);//The functional module of image disk caching
 
+Error description:line 51-61, inappropriate code implementation
+
 
 
 

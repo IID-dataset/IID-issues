@@ -9,3 +9,5 @@ int maxMemory = (int) (Runtime.getRuntime().freeMemory() / 1024);
 int cacheSize = maxMemory / 16;
 mBitmapCache.trimToSize(cacheSize);
 //buggy code    lack the functional module of image cache releasing
+
+Error description:line 10, lack of necessary functional modules

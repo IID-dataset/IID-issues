@@ -37,3 +37,5 @@ The end of the functional module: image resizing
 mCardBitmap = new BitmapDrawable(mActivity.getResources(), bitmapOrig);
 protected void onPostExecute(Void result) {
 mCardImageView.setImageDrawable(mCardBitmap);//The functional module of image displaying
+
+Error description:line 17-33, inappropriate code implementation.

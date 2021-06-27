@@ -28,4 +28,4 @@ long diskCacheSize = Math.round(Math.min(usableSpace * mCacheParams.diskCacheSiz
 if (usableSpace > diskCacheSize) {
 mDiskLruCache = DiskLruCache.open(diskCacheDir, 1, 1, diskCacheSize);
 
-
+Error description:line 7, inappropriate code implementation  

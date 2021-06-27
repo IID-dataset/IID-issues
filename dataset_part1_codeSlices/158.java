@@ -18,3 +18,5 @@ final BitmapFactory.Options options = new BitmapFactory.Options();
 final ContentResolver contentResolver = photoView.getContext().getContentResolver();
 thumbnail = MediaStore.Images.Thumbnails.getThumbnail(contentResolver,imageID,resolutionKind,options);//The functional module of image decoding        buggy code
 photoView.setImageBitmap(thumbnail);//The functional module of image displaying
+
+Error description:line 19, inappropriate code implementation

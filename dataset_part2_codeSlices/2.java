@@ -58,4 +58,8 @@ bitmap.recycle()
 return new CachedImage(imageId, background, srcRect)
 if (image != null) {
 if (currentCacheSize > 0) {
-put(path, image);       
+put(path, image);  
+
+
+
+Error description:line 11, inappropriate code implementation       

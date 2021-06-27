@@ -21,7 +21,7 @@ Picasso.with(getContext()).load(url).noPlaceholder().into(photoView, new Callbac
 The end of the functional module: image resizing+displaying
 **/
 
-
+Error description:line 19, misconfiguration of third-party libraries
 
 
 

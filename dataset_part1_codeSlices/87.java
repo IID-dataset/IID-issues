@@ -11,4 +11,6 @@ setupHeaderView();
 private void setupHeaderView() {
 Glide.with(getActivity()).load(feed.getImageUri()).diskCacheStrategy(DiskCacheStrategy.SOURCE).transform(new FastBlurTransformation(getActivity())).dontAnimate().into(imgvBackground);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
 
+Error description:line 12, misconfiguration of third-party libraries
+
 

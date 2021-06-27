@@ -39,3 +39,5 @@ public Drawable getDrawable() {
 if (downloadFile.exists()) {
 return Drawable.createFromPath(downloadFile.getFile().getAbsolutePath());//The functional module of image decoding   buggy code    image decoding without resizing
 
+Error description: line 40, lack of necessary functional modules
+

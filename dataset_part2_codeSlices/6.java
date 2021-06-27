@@ -33,3 +33,5 @@ outputStream.close();
 byte[] result = outputStream.toByteArray();
 String outputString = new String(result, "UTF-8");
 return outputString;
+
+Error description:line 14, inappropriate code implementation  

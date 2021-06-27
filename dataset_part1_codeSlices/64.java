@@ -16,3 +16,5 @@ final File cacheDir = getBestCacheDir(this, dirName);
 final File fallbackCacheDir = getInternalCacheDir(this, dirName);
 final URLFileNameGenerator fileNameGenerator = new URLFileNameGenerator();
 return new LruDiskCache(cacheDir, fallbackCacheDir, fileNameGenerator,384 * 1024 * 1024, 0);//buggy code
+
+Error description:line 18, inappropriate code implementation

@@ -61,6 +61,8 @@ if (b != null)
 imageView = new ImageView(getContext())
 imageView.setImageBitmap(b)//The functional module: image displaying
 
+Error description:line 29-38, inappropriate code implementation  
+
 
 						
 						

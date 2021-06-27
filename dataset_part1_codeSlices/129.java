@@ -15,3 +15,5 @@ switch (info.errorCode) {
 case VideoInfo.NO_ERROR: {
 thumb = (ImageView) activity.findViewById(R.id.detailUploaderThumbnailView);
 imageLoader.displayImage(currentVideoInfo.uploader_thumbnail_url, thumb);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 17, using unsuitable third-party libraries   

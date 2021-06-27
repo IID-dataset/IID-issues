@@ -37,3 +37,7 @@ Bitmap bm = BitmapFactory.decodeFile(fn,o2);//The functional module of image dec
 if (bm == null) {			
 } else {
 imgView.setImageBitmap(bm);//The functional module of image displaying
+
+Error description:line 20-32, inappropriate code implementation
+
+

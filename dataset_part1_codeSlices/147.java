@@ -21,7 +21,7 @@ protected void onPostExecute(Bitmap bitmap) {
 img.setImageBitmap(bitmap);//The functional module of image displaying
 //  error position           lack a functional module of image caching
 
-
+Error description:line 21, lack of necessary functional modules
 
 
 

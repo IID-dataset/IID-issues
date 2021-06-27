@@ -13,3 +13,5 @@ String url = imageUrl(iv, boardCode, groupBoardCode, cursor, flags, options);
 displayImage(iv, url);
 protected static boolean displayImage(final ImageView iv, final String url) {
 imageLoader.displayImage(url, iv, displayImageOptions, thumbLoadingListener);//The functional module of image resizing+decoding+displaying
+
+Error description:line 7, lack of necessary functional modules

@@ -73,3 +73,5 @@ if (result.bitmap != null && mBitmap != result.bitmap) {
 result.bitmap.recycle();//releasing the decoded image 
 
 
+Error description:line 9, inappropriate code implementation
+

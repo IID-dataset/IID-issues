@@ -11,6 +11,6 @@ final Bitmap thumbnail = MediaStore.Images.Thumbnails.getThumbnail(getActivity()
 return thumbnail;
 this.mImage.setImageBitmap(getBitmap(markerId));//The functional module of image displaying
 
-
+Error description:line 10, inappropriate code implementation
 
 

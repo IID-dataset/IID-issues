@@ -44,7 +44,7 @@ The end of a functional module: image resizing+decoding
 **/
 canvas = new Canvas(bitmap) //The functional module of image displaying
 
-						
+Error description:line 8, inappropriate code implementation  					
 
 						
 						

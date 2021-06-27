@@ -22,3 +22,5 @@ return image;
 protected void onPostExecute(Bitmap image) {
 if (!isCancelled()) {
 this.holder.image.setImageBitmap(image);//The functional module of image displaying
+
+Error description:line 19, inappropriate code implementation

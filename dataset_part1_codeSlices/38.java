@@ -19,3 +19,5 @@ The end of the functional module: image resizing
 Bitmap bitmap = decoder.decodeRegion(new Rect(0, 0, width, height), options);//The functional module of image decoding
 mHandler.sendMessage(mHandler.obtainMessage(MSG_UPDATE_IMAGE, new ImageBundle(decoder, bitmap)));//The functional module of image displaying
 //buggy position        lack of image object releasing
+
+Error description:line 19-20, inappropriate code implementation

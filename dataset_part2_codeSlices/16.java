@@ -18,3 +18,5 @@ Picasso.with(GallerySettingsActivity.this).load(images.get(h)).resize(mItemSize 
 /**
 The end of the functional module: image resizing+decoding+displaying
 **/
+
+Error description:line 17, misconfiguration of third-party libraries

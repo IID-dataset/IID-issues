@@ -24,3 +24,5 @@ if (mediaFile.isVideo()) {
 } else {
 Bitmap bitmap = BitmapFactory.decodeFile(safeMediaUrl);//The functional module for image decoding     This line is the buggy code
 content.insertMedia(new BitmapDrawable(getResources(), bitmap), attrs);//The functional module for image displaying
+
+Error description: line 25, inappropriate code implementation

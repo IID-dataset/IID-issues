@@ -9,6 +9,8 @@ uriString = getIntent().getStringExtra(ARG_MEDIA_URI);
 mMediaUri = Uri.parse(uriString);
 mImageView.setImageURI(mMediaUri);//The functional module of image decoding+displaying       buggy code
 
+Error description:line 10, lack of necessary functional modules
+
 
 
 

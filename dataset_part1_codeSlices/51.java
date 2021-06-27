@@ -41,3 +41,5 @@ bitmap = Bitmap.createScaledBitmap(bitmap, (int) newWidth, (int) newHeight, fals
 return bitmap;
 canvas = new Canvas(bitmap);//The functional module of image displaying
 
+Error description:line 28, inappropriate code implementation
+

@@ -20,3 +20,5 @@ File outFile = new File(context.getFilesDir(), "background.png");
 out = new FileOutputStream(outFile);
 tn.compress(Bitmap.CompressFormat.PNG, 90, out);//The functional module of image disk caching
 tn.recycle();//The functional module of image releasing
+
+Error description:line 14, inappropriate code implementation

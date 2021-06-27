@@ -7,3 +7,5 @@ public void PopulateSubmissionViewHolder(final SubmissionViewHolder holder, fina
 public void onClick(View view) {
 if ((SettingValues.NSFWPreviews && submission.getThumbnailType() == Submission.ThumbnailType.NSFW) || submission.getThumbnailType() == Submission.ThumbnailType.URL) {
 Picasso.with(mContext).load(submission.getThumbnail()).into(holder.thumbImage);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 9, using unsuitable third-party libraries   

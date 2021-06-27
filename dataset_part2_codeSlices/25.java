@@ -12,3 +12,5 @@ Picasso.with(holder.imageView.context).load(item.attachment.previewUrl).into(hol
 /**
 The end of the functional module: image decoding+displaying
 **/
+
+Error description:line 11, misconfiguration of third-party libraries

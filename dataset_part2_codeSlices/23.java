@@ -21,3 +21,5 @@ Picasso.with(context).load(mediaPreviewUnloadedId).into(mediaPreviews[i]);//bugg
 /**
 The end of the functional module: image decoding+displaying
 **/
+
+Error description:line 20, misconfiguration of third-party libraries

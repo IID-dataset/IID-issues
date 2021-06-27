@@ -12,3 +12,5 @@ if (position == 0) {
                   if (view == null) {
 view = mInflater.inflate(R.layout.zero_size_layout, null);
 //error position      need to cache the items in a view
+
+Error description:line 13, lack of necessary functional modules

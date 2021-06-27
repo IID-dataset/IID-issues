@@ -49,7 +49,8 @@ The end of the functional module: image resizing
 if (bitmap != null) {
 thumbnail = addThumbnailToCache(imageKey, bitmap, file.getPath(), px);
 return thumbnail;
-return thumbnail;
+
+Error description:line 33, inappropriate code implementation
 
 
 

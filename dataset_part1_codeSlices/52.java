@@ -32,3 +32,5 @@ public static void saveBitmapToFile(Bitmap bitmap, String path) {
 FileOutputStream out = null;
 out = new FileOutputStream(path);
 bitmap.compress(Bitmap.CompressFormat.JPEG, 100, out);//The functional module of image disk caching
+
+Error description:line 19--26, inappropriate code implementation.

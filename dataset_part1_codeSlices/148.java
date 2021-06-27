@@ -26,4 +26,4 @@ return myBitmap;
 protected void onPostExecute(Bitmap result) {
 imageView.setImageBitmap(result);//The functional module of image displaying
 
-
+Error description:line 24, inappropriate code implementation

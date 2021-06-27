@@ -37,6 +37,8 @@ if (bm == null) {
 } else {
 imgView.setImageBitmap(bm);//The functional module of image displaying
 
+Error description:line 19-31, inappropriate code implementation
+
 
 
 

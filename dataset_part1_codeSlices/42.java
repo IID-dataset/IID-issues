@@ -64,6 +64,8 @@ if (mImageViewReference != null && bitmap != null) {
 final ImageView imageView = mImageViewReference.get();
 imageView.setImageBitmap(bitmap);//The functional module of image displaying
 
+Error description:line 37-48, inappropriate code implementation
+
 
 
  	 

@@ -14,3 +14,5 @@ Bitmap art = Glide.with(context).load(p.getImageUri()).asBitmap().diskCacheStrat
 builder.putBitmap(MediaMetadataCompat.METADATA_KEY_ART, art);
 mediaSession.setMetadata(builder.build());
 
+Error description:line 13, misconfiguration of third-party libraries
+

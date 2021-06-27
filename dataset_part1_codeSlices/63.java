@@ -11,3 +11,5 @@ private void loadImage(){
 Bitmap image = BitmapFactory.decodeFile(item.getPath());//The functional module of image decoding       buggy code
 mContentView.setImageBitmap(image);//The functional module of image displaying
 
+Error description:line 11, inappropriate code implementation
+

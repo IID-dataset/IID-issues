@@ -20,3 +20,5 @@ FileOutputStream out = null;
 f.createNewFile();
 out = new FileOutputStream(f);
 bitmap.compress(Bitmap.CompressFormat.PNG, 100, out);//The functional module of image disk caching
+
+Error description:line 14, inappropriate code implementation  

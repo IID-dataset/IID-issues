@@ -44,6 +44,8 @@ The end of the functional module: image resizing
 background = BitmapFactory.decodeStream(contentResolver.openInputStream(MuzeiContract.Artwork.CONTENT_URI), null, options);//The functional module of image decoding
 NotificationCompat.Builder nb = new NotificationCompat.Builder(context.setLargeIcon(largeIcon);//The functional module of image disk caching
 
+Error description:line 14-27, inappropriate code implementation
+
 
 
 

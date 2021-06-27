@@ -9,3 +9,5 @@ Bitmap bitmap = BitmapFactory.decodeFile(fileName);//The functional module of im
 bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
 imageView.setImageBitmap(bitmap);//The functional module of image displaying
 //error position         lack of image object releasing
+
+Error description:line 10, inappropriate code implementation  

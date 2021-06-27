@@ -28,3 +28,5 @@ String filename = String.valueOf(url.hashCode());
 File f = new File(getCacheDirectory(imageView.getContext()), filename); 	
 imageCache.put(f.getPath(), bitmap);//The functional module of image memory caching
 //error position     lack of image releasing
+
+Error description:line 29, inappropriate code implementation  

@@ -10,3 +10,5 @@ resultCode == Activity.RESULT_OK && data != null) {
 Bundle extras = data.getExtras();
 Bitmap imageBitmap = (Bitmap) extras.get("data");//The functional module of image decoding     buggy code
 mIssueImage.setImageBitmap(imageBitmap);//The functional module of image displaying
+
+Error description:line 11, inappropriate code implementation

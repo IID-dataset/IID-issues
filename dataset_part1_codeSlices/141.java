@@ -21,3 +21,5 @@ return vfsUri(targetPath);
 Uri vfsUri = ChatFileStore.importContent(sessionId, info.path);
 //error position      lack a functional module of image resizing to resize the image in vfsUri
 boolean sent = handleSend(vfsUri, (mimeType==null) ? info.type : mimeType);
+
+Error description:line 21，23, inappropriate code implementation

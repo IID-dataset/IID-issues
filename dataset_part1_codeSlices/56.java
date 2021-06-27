@@ -11,3 +11,5 @@ File fi = new File(Collect.TMPFILE_PATH);
 File nf = new File(s);
 if (!fi.renameTo(nf)) {
 Timber.e("Failed to rename %s", fi.getAbsolutePath());
+
+Error description:line 9, lack of necessary functional modules

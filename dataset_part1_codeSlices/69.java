@@ -50,3 +50,5 @@ bitmap.recycle();
 protected void onPostExecute(Void result) {
 mCardImageView.setImageDrawable(mCardBitmap);//The functional module of image displaying
 //buggy position          lack of image object releasing
+
+Error description:line 52, lack of necessary functional modules

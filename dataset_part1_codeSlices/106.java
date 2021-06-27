@@ -42,3 +42,5 @@ final String smallFileName = fileName + "-small";
 final FileOutputStream out = new FileOutputStream(smallFileName);
 scaledBitmap.compress(Bitmap.CompressFormat.JPEG, 100, out);//The functional module of image disk caching
 scaledBitmap.recycle();	//The functional module of image releasing
+
+Error description:line 21, inappropriate code implementation  

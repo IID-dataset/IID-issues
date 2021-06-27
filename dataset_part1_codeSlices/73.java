@@ -8,3 +8,5 @@ protected void showFeedInformation(final Feed feed, final Map<String, String> al
 ImageView cover = (ImageView) header.findViewById(R.id.imgvCover);
 if (feed.getImage() != null && StringUtils.isNotBlank(feed.getImage().getDownload_url())) {
 Glide.with(this).load(feed.getImage().getDownload_url()).placeholder(R.color.light_gray).diskCacheStrategy(DiskCacheStrategy.SOURCE).fitCenter().dontAnimate().into(cover);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
+
+Error description:line 10, misconfiguration of third-party libraries

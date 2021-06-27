@@ -13,4 +13,6 @@ Context c = getActivity();
 if (c != null) {
 Glide.with(c).load(media.getImageUri()).diskCacheStrategy(DiskCacheStrategy.SOURCE).dontAnimate().into(imgvCover);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
 
+Error description:line 14, misconfiguration of third-party libraries
+
 

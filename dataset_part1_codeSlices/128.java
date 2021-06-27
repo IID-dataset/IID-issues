@@ -17,3 +17,5 @@ case VideoInfo.NO_ERROR: {
 View nextVideoView = videoItemViewCreator.getViewFromVideoInfoItem(null, nextVideoFrame, info.nextVideo, getContext());
 ImageView thumb = thumbnailView;
 imageLoader.displayImage(currentVideoInfo.thumbnail_url,thumb);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 19, using unsuitable third-party libraries   

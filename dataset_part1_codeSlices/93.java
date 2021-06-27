@@ -23,3 +23,5 @@ bitmap = Bitmap.createScaledBitmap(bitmap, currSize, currSize, false)//The funct
 currSize /= 2
 case Some(bitmap) =>
 FileUtils.writeBitmap(bitmap, Bitmap.CompressFormat.PNG, 0, avatarFile)//The functional module of image disk caching
+
+Error description:line 10, inappropriate code implementation

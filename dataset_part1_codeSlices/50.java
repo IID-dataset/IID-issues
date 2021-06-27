@@ -52,3 +52,5 @@ Bitmap b = BitmapFactory.decodeFile(f.getAbsolutePath(), options);   //The funct
 return b;
 imageView.setImageBitmap(bmp);//The functional module of image displaying
 
+Error description:line 51, inappropriate code implementation
+

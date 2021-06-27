@@ -10,3 +10,5 @@ NotificationCompat.Builder builder = getBaseBuilder(context);
 return builder;	
 public NotificationCompat.Builder getBaseBuilder(Context context) {
 return new NotificationCompat.Builder(context).setSmallIcon(R.drawable.ic_notification).setGroup(GCMMessageHandler.GROUP_KEY).setColor(context.getResources().getColor(R.color.accent_dark)).setAutoCancel(true).extend(new NotificationCompat.WearableExtender().setBackground(BitmapFactory.decodeResource(context.getResources(), R.drawable.tba_blue_background)));  //The functional module of image decoding+displayingbuggy code
+
+Error description:line 12, inappropriate code implementation  

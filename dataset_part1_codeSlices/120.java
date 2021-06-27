@@ -7,3 +7,5 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle sav
 TouchImageView image = (TouchImageView) rootView.findViewById(R.id.image);
 url = ContentType.getFixedUrl(s.getUrl());
 Picasso.with(getActivity()).load(url).into(image);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 9, using unsuitable third-party libraries   

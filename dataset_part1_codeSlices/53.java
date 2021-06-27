@@ -39,3 +39,5 @@ The end of the  functional module: image resizing
 bitmap = Bitmap.createScaledBitmap(bitmap, (int) newWidth, (int) newHeight, false);//The functional module of image decoding
 return bitmap;
 mCanvas = new Canvas(mBitmap);//The functional module of image displaying
+
+Error description:line 27, inappropriate code implementation

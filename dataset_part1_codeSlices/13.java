@@ -13,6 +13,8 @@ if (bitmap == null && !isImmediate) {
 BitmapDrawable bitmapDrawable = new BitmapDrawable(context.getResources(), bitmap);
 callbacks.onImageLoaded(bitmapDrawable);//The functional module of image displaying
 
+Error description:line 9, lack of necessary functional modules
+
 
 
 

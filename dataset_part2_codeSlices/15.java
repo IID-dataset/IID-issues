@@ -61,7 +61,7 @@ appWidgetManager.updateAppWidget(widgetId, remoteViews);
 The end of a functional module: image displaying
 **/
 
-
+Error description:line 16-32, inappropriate code implementation  
 
 
 

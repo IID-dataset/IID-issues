@@ -11,3 +11,5 @@ Bitmap thumb = ThumbnailUtils.extractThumbnail(ti.bitmap,pixels.width(),pixels.h
 GLESTextureInfo dst = GLESUtil.loadTexture(thumb, ti.effect == null ? null : ti.effect, mScreenDimensions);
 int[] textures = new int[]{ti.handle};
 //error position        lack a functional module to release image object
+
+Error description:line 12, lack of necessary functional modules

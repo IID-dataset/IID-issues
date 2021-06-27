@@ -121,9 +121,7 @@ return finalBytes;
 return BitmapFactory.decodeByteArray(finalBytes, 0, finalBytes.length);//image decoding
 WPImageSpan is = new WPImageSpan(getActivity(), thumbnailBitmap, imageUri);//The functional module of image displaying
 
-Error description: line 52, inappropriate code implementation
-
-Error description: line 52, inappropriate code implementation
+Error description: line 57, inappropriate code implementation
 
 
 

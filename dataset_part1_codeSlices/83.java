@@ -10,4 +10,6 @@ GpodnetPodcast podcast = getItem(position);
 if (StringUtils.isNotBlank(podcast.getLogoUrl())) {
 Glide.with(convertView.getContext()).load(podcast.getLogoUrl()).diskCacheStrategy(DiskCacheStrategy.SOURCE).fitCenter().dontAnimate().into(holder.image);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
 
+Error description:line 11, misconfiguration of third-party libraries
+
 

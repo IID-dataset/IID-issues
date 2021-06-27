@@ -11,3 +11,5 @@ parent.dbHelper.cleanupStoryText();
 ImageCache imageCache = new ImageCache(parent);
 imageCache.cleanup(parent.dbHelper.getAllStoryImages());
 //error position      lack of image cache releasing
+
+Error description:line 12, inappropriate code implementation  

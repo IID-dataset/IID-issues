@@ -9,12 +9,12 @@ val view = holder.itemView
 /**
 The begin of a functional module: image decoding+displaying
 **/
-Glide.with(context).load(uri).into(view.thumbnail)
+view.thumbnail.setImageBitmap(bitmap)
 /**
 The end of the functional module: image decoding+displaying
 **/
 
-
+Error description:line 12, inappropriate code implementation
 
 
 

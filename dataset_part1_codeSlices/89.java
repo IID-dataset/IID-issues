@@ -12,3 +12,5 @@ if (android.os.Build.VERSION.SDK_INT >= 11) {
 if (info.playable != null) {
 int iconSize = getResources().getDimensionPixelSize(
 icon = Glide.with(PlaybackService.this).load(info.playable.getImageUri()).asBitmap().diskCacheStrategy(DiskCacheStrategy.SOURCE).into(-1, -1) .get();//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
+
+Error description:line 14, misconfiguration of third-party libraries

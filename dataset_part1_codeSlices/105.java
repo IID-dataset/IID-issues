@@ -14,3 +14,4 @@ public Bitmap getBitmap() {
 return mBitmap;
 pvComic.setImageBitmap(sComics[position].getBitmap());//The functional module of image displaying
 
+Error description:line 7, inappropriate code implementation  

@@ -63,3 +63,6 @@ if (bitmap == null) {
 } else {
 bitmap = getRoundedCornerBitmap(bitmap);
 views.setImageViewBitmap(R.id.appwidget_coverart, bitmap);//The functional module of image displaying
+
+Error description:line 42, inappropriate code implementation
+

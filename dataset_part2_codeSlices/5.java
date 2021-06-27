@@ -15,3 +15,5 @@ glideLoad.placeholder(view.getDrawable()).fitCenter().dontAnimate().listener(new
 /**
 The begin of a functional module: image resizing+resizing+displaying
 **/
+
+Error description:line 14, inappropriate code implementation  

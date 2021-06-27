@@ -15,3 +15,5 @@ float percentage = (float) targetSize / bitmap.getHeight();
 targetWidth = (int)(bitmap.getWidth() * percentage);
 return Bitmap.createScaledBitmap(bitmap, targetWidth, targetHeight, true);
 replaceDrawable(new BitmapDrawable(getResources(), resizedBitmap));//The functional module of image displaying
+
+Error description:line 9, inappropriate code implementation

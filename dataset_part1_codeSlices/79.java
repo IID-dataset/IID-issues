@@ -9,3 +9,5 @@ Holder holder;
 final FeedItem item = (FeedItem) getItem(position);
 Glide.with(context).load(item.getImageUri()).diskCacheStrategy(DiskCacheStrategy.SOURCE).fitCenter().dontAnimate().into(new CoverTarget(item.getFeed().getImageUri(), holder.placeholder, holder.cover));//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
 
+Error description:line 10, misconfiguration of third-party libraries
+

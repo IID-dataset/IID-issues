@@ -16,3 +16,5 @@ if(bitmap != null){
 imageCache.put(f.getPath(), bitmap);//The functional module of image memory caching
 CoverImageView.setImageDrawable(new BitmapDrawable(imageDownloader.returnDrawable(context, mAr.getImageUrl())));//The functional module of image displaying
 //error position     lack of image releasing
+
+Error description:line 17, inappropriate code implementation  

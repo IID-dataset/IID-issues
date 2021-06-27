@@ -44,3 +44,4 @@ bitmap.compress(compressFormat, 100, out);
 The end of the functional module: image disk caching
 **/
 
+Error description:line 17-22, inappropriate code implementation  

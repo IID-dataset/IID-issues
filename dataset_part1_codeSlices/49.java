@@ -33,3 +33,5 @@ Bitmap b = BitmapFactory.decodeFile(f.getAbsolutePath(), options);//The function
 return b;
 mCanvas = new Canvas(mBitmap);//The functional module of image displaying
 
+Error description:line 14, inappropriate code implementation
+

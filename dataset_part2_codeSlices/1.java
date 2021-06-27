@@ -47,4 +47,6 @@ cacheStoreDrawable(componentName.toString(), generated)
 return generated
 return icon
 this.setAsyncDrawable(appIcon)	
+
+Error description:line 16, inappropriate code implementation  
 	

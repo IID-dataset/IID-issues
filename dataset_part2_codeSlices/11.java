@@ -62,4 +62,6 @@ imageView.setImageBitmap(b)//image displaying
 /**
 The end of a functional module: image image resizing+decoding+displaying
 **/
+
+Error description:line 19-46, inappropriate code implementation  
 						

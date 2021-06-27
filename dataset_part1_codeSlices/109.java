@@ -25,4 +25,4 @@ The end of the functional module: image resizing
 **/
 imgDisplay.setImageBitmap(bitmap);//The functional module of image displaying
 
-
+Error description:line 10-12, inappropriate code implementation  

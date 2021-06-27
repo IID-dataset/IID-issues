@@ -13,3 +13,5 @@ url = submission.getDataNode().get("preview").get("images").get(0).get("source")
 if ((big || fullscreen) && !blurry) {
 } else {
 Picasso.with(mContext).load(url).into(holder.thumbImage);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 15, using unsuitable third-party libraries   

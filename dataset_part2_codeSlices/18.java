@@ -35,3 +35,5 @@ Picasso.with(this).load(item.uri).into(imageView);//buggy code
 /**
 The end of the functional module: image decoding+displaying
 **/
+
+Error description:line 34, misconfiguration of third-party libraries

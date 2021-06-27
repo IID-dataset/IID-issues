@@ -82,31 +82,7 @@ bmpRotated = Bitmap.createBitmap(bmpResized, 0, 0, bmpResized.getWidth(), bmpRes
 return bmpRotated.compress(fmt, quality, outStream);//The functional module of image disk caching
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Error description: line 81, inappropriate code implementation.
 
 
 

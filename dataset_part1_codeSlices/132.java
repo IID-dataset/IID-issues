@@ -9,4 +9,6 @@ Intent intent = getIntent();
 if(intent!=null){
 String path=intent.getStringExtra("path");
 Glide.with(this).load(path).into(imageView);//The functional module of image decoding+displaying      buggy code
-          
+
+
+Error description:line 11, using unsuitable third-party libraries         

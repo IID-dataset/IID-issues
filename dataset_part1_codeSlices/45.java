@@ -31,6 +31,8 @@ if (image != null) {
 final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
 image.compress(Bitmap.CompressFormat.PNG, 100, byteStream);//The functional module of image disk caching
 
+Error description:line 18, inappropriate code implementation
+
 
 
 

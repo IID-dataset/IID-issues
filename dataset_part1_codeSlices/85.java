@@ -9,3 +9,5 @@ Playable media = controller.getMedia();
 if (media != null) {
 Glide.with(getActivity()).load(media.getImageUri()).diskCacheStrategy(DiskCacheStrategy.SOURCE).fitCenter().dontAnimate().into(imgvCover);//The functional module of image decoding+resizing+disk-caching+displaying     buggy code
 
+Error description:line 10, misconfiguration of third-party libraries
+

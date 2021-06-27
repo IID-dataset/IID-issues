@@ -6,3 +6,5 @@ Below is the IID issue's code slice:
 protected void onCreate(Bundle icicle) {
 if (!mHasBackground)
 findViewById(R.id.RootView).setBackgroundResource(R.drawable.csbackground);//The functional module of image decoding+displaying      buggy code
+
+Error description:line 8, inappropriate code implementation

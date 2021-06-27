@@ -14,3 +14,5 @@ int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
 String picturePath = cursor.getString(columnIndex);
 cursor.close();
 mIssueImage.setImageBitmap(BitmapFactory.decodeFile(picturePath));//The functional module of image decoding+displaying      buggy code
+
+Error description:line 16, inappropriate code implementation

@@ -20,3 +20,5 @@ if (android.os.Build.VERSION.SDK_INT >= 11) {
 if (info.playable != null) {
 int iconSize = getResources().getDimensionPixelSize(android.R.dimen.notification_large_icon_width);
 icon = Glide.with(PlaybackService.this).load(info.playable.getImageUri()).asBitmap().diskCacheStrategy(ApGlideSettings.AP_DISK_CACHE_STRATEGY).into(-1, -1) .get();//The functional module of image decoding+disk-caching+displaying     buggy code
+
+Error description:line 22, misconfiguration of third-party libraries

@@ -24,3 +24,5 @@ fakeImage.setLayoutParams(new LinearLayout.LayoutParams(i.getWidth(), i.getHeigh
 fakeImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
 ((Reddit) getApplication()).getImageLoader().displayImage(url, new ImageViewAware(fakeImage), new DisplayImageOptions.Builder().resetViewBeforeLoading(true).cacheOnDisk(true).imageScaleType(ImageScaleType.NONE).cacheInMemory(false).displayer(new FadeInBitmapDisplayer(250)).build(), new ImageLoadingListener() {//The functional module of image decoding+displaying       error position     image decoding should be executed in the background thread
 
+Error description:line 25, inappropriate code implementation  
+

@@ -12,3 +12,5 @@ Drawable loadingImagePlaceholder = getResources().getDrawable(org.wordpress.andr
 loadingImagePlaceholder.setBounds(0, 0,AztecEditorFragment.DEFAULT_MEDIA_PLACEHOLDER_DIMENSION_DP,AztecEditorFragment.DEFAULT_MEDIA_PLACEHOLDER_DIMENSION_DP);//The functional module of image displaying     buggy code
 aztecEditorFragment.setAztecImageLoader(new AztecImageLoader(getBaseContext(), loadingImagePlaceholder));
 aztecEditorFragment.setLoadingImagePlaceholder(loadingImagePlaceholder);
+
+Error description:line 9, inappropriate code implementation

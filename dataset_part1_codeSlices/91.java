@@ -9,3 +9,5 @@ Glide.get(this).trimMemory(level);
 public void onLowMemory() {
 super.onLowMemory();
 Glide.get(this).clearMemory();
+
+Error description:line 7-8, inappropriate code implementation

@@ -60,7 +60,7 @@ imageSpan.setMediaFile(is.getMediaFile());
 imageSpan.setNetworkImageLoaded(true);
 s.setSpan(imageSpan, spanStart, spanEnd, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);//the functional module of image displaying
 
-	
+Error description:line 41-47, inappropriate code implementation
 
 
 

@@ -19,3 +19,5 @@ AttachedImageView imageView = (AttachedImageView) messageView.findViewById(R.id.
 if (oMsg.mImageDrawable != null) {
 imageView.setImageDrawable(oMsg.mImageDrawable);//The functional module of image displaying
 
+Error description:line 9, inappropriate code implementation
+

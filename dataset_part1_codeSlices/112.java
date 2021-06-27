@@ -55,3 +55,5 @@ scaledBitmap.recycle();
 imageView.setImageBitmap(bitmap);//The functional module of image displaying
 //error position         lack of image object releasing
 
+Error description:line 55, inappropriate code implementation  
+

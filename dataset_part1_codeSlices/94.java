@@ -45,3 +45,5 @@ The end of the functional module: image resizing
 **/
 Bitmap bitmap = BitmapFactory.decodeFile(path, calculateScaling(objTag, imageSize));//buggy code      repeated and redundant image decoding
 return new BitmapDrawable(MyContextHolder.get().context().getResources(), bitmap);
+
+Error description:line 46, inappropriate code implementation

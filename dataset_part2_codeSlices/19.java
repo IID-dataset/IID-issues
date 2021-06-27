@@ -76,7 +76,7 @@ The end of a functional module for image disk caching
 **/
 reorientedBitmap.recycle();//releasing the image object
 
-
+Error description:line 24-26, inappropriate code implementation
 
 
 

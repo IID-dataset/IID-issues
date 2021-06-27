@@ -23,3 +23,5 @@ avatarsCache.setMaxBounds(avatarSize, avatarSize);
 ActivityManager.MemoryInfo memInfo = new ActivityManager.MemoryInfo();
 actManager.getMemoryInfo(memInfo);
 return memInfo.totalMem;
+
+Error description: line 6-7, inappropriate code implementation

@@ -13,3 +13,5 @@ if (position == 0) {
 if (view == null) {
 view = mInflater.inflate(R.layout.comments_list_item_hidden, null);
 //error position      need to cache the items in a view
+
+Error description:line 14, lack of necessary functional modules

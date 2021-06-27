@@ -48,6 +48,8 @@ return new BitmapDrawable(mContext.getResources(), bitmap);
 protected void onPostExecute(Drawable result) {
 mView.setImageDrawable(result);//The functional module of image displaying
 
+Error description:line 29, inappropriate code implementation
+
 
 
 

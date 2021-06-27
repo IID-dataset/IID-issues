@@ -28,6 +28,8 @@ final ImageViewCustom imageView = mImageViewRef.get();
 if (imageView != null) {
 imageView.setImageBitmap(result);//The functional module of image displaying
 
+Error description:line 18, inappropriate code implementation
+
 
 
 
